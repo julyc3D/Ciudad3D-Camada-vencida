@@ -1,0 +1,309 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    overflow-x:hidden
+}
+body{
+    overflow: hidden;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.headerTop{
+    background: rgb(255,255,255);
+    background: linear-gradient(98deg, rgba(255,255,255,1) 34%, rgba(80,0,0,1) 67%);
+    height: 22vh;
+}
+.imgLOGO{
+    display: inline-block;
+    margin: auto;
+    margin-top: 5px;
+    width: 18rem;
+    height: 7.5rem;
+
+}
+.titulo{
+    color: #6a0000;
+    font-family: 'Ramaraja', serif;
+    font-size: 50px;
+    position: relative;
+    left: 270px;
+    top: -90px;
+}
+.barraNav{
+    position: absolute;
+    z-index: 10;
+    margin: 0.5rem;
+    left: 50rem;
+    top: 4rem;
+}
+.EnlacesPagina {
+    list-style: none;
+}
+.EnlacesPagina a{
+    text-decoration: none;
+    color: white;
+}
+.EnlacesPagina__li{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    border: 2px #e30202;
+    border-style: double;
+}
+.h1{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    color:#6a0000;
+    font-size: 3rem;
+    font-family: 'Ramaraja', serif;
+    z-index: -10;
+}
+.DivMain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem;
+    gap: 2rem;
+}
+.textoVentajas{
+    width: 40rem;
+    height: fit-content;
+    line-height:  1.7rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 16px;
+
+}
+.VideoImpresora{
+    margin-left: 2rem;
+    width: 30rem;
+    height: 20rem;
+}
+.Txt{
+    margin: 8rem auto;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    border: 5px;
+    border-style:double;
+    border-color: #6a0000;
+    width: fit-content;
+}
+footer{
+    background: rgb(255,255,255);
+    background: linear-gradient(98deg, rgba(255,255,255,1) 34%, rgba(80,0,0,1) 67%);
+    margin-top: 3rem;
+}
+.DivFooter{
+    display: flex
+}
+.divRedes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+.ImgFooter{
+    height: 8rem;
+    width: 11rem;
+    display: flex;
+    margin-left: 20rem;
+    margin-top: 0.5rem;
+
+}
+.EnlacesPaginaFooter{
+    list-style: none;
+    margin-left: 20rem;
+    margin-top: 0.5rem;
+    
+}
+.EnlacesPaginaFooter a{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    line-height: 2rem;
+}
+.Redes{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.2rem;
+    margin-top: 0.5rem;
+}
+.Tel{
+    margin-top: 3.7rem;
+    color: white;
+}
+.insta{
+    color: white;
+}
+.insta a{
+    text-decoration: none;
+    color: white;
+}
+.ig{
+    margin-left: 2rem;
+    height: 10.5vh;
+    width: 10.5vh;
+}
+.Wp{
+    height: 15.9vh;
+    width: 21.1vh;
+
+}
+.ImgContactos{
+    display: flex;
+    flex-direction: column;
+    width: 52.8vh;
+    height: 44vh;
+    border-radius: 50%;
+}
+.RefContactos{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    
+}
+.TxtContacto{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #6a0000;
+    margin: 20px;
+}
+.FieldSet{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.DivQS .TituloQS{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: #6a0000;
+    text-decoration:underline;
+
+
+}
+.DivQS .Txt_QuienesSomos{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    line-height: 5.2vh;
+}
+.DivGaleria{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.DivGaleria2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    gap: 1rem;
+}
+.FotoFinal{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.TextGaleria{
+    margin-left: 5.5rem;
+    font-size: 20px;
+    color:#6a0000;
+    border-top: ridge 3px;
+    border-left: ridge 3px;
+    border-right:  ridge 3px;
+    padding: 10px;
+    margin: 2rem;
+    width: fit-content;
+}
+.Text2{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Ramaraja', serif;
+    color: #6a0000;
+    margin-top: 1.3rem;
+    border: 3px;
+    border-style: double;
+    border-color: #6a0000;
+    padding: 5px;
+
+}
+.ImgGaleria1{
+    height: 300px;
+    width: 500px;
+}
+.ImgProtesis1{
+    height: 52.8vh;
+    width: 88vh;
+}
+.Foto4{
+    height: 52.8vh;
+    width: 88vh;
+}
+.foto5{
+    width: 35rem;
+    height: 25rem;
+    border: 2px gold;
+}
+.DivContacto{
+    display: flex;
+    align-items: center;
+}
+.HContacto{
+    display: flex;
+    margin-left: 35.2vh;
+    font-size: 50px;
+    color: #6a0000;
+    text-decoration: none;
+    
+}
+.HContacto a{
+    text-decoration: none;
+    color: #6a0000;
+}
+.DivUbi{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+.Ubi{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    margin-top: 1.5rem;
+    height: 79.2vh;
+    width: 79.2vh;
+}
+.TxtUbi{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 50rem;
+    margin-left: 14.3rem;
+    margin-top: 1.8rem;
+
+}
+.TxtUbi_P{
+    font-size: 20px;
+    width: 100px;
+    color: #6a0000;
+    font-family: 'Ramaraja', serif;
+    width: fit-content;
+    margin: 5px 5px 5px;
+}
