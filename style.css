@@ -15,37 +15,20 @@ body{
 }
 header{
     top: 0;
-}
-.headerTop{
     background: rgb(255,255,255);
     background: linear-gradient(98deg, rgba(255,255,255,1) 34%, rgba(80,0,0,1) 67%);
-    height: 22vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    
 }
 .imgLOGO{
-    display: grid;
     width: 18rem;
     height: 7.5rem;
-
 }
-.barraNav{
-    display: grid;
-    margin: 0.5rem;
-    align-content: center;
-}
-.EnlacesPagina {
-    list-style: none;
-    display: flex;
+.navbar-collapse{
+    justify-content: end;
     margin-top: 4rem;
-    margin-left: 11rem;
-
+    margin-right: 2rem;
 }
-.EnlacesPagina a{
-    text-decoration: none;
-    color: white;
-}
-.EnlacesPagina__li{
+.nav-link{
     padding: 5px;
     margin: 5px;
     border: 2px #e30202;
