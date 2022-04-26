@@ -19,10 +19,10 @@
               </button>
               <div class="collapse navbar-collapse" style="justify-content: end;" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="../index.html" style="color:white">Inicio</a>
-                    <a class="nav-link" href="Contacto.html" style="color:white">Contacto</a>
-                    <a class="nav-link active" style="color:white" aria-current="page" href="Ubicacion.html">Ubicacion</a>
-                  <a class="nav-link" href="quienes_somos.html" style="color:white">Quienes Somos</a>
+                    <a class="nav-link" href="../index.html" style="color:rgb(0, 85, 255)">Inicio</a>
+                    <a class="nav-link" href="Contacto.html" style="color:rgb(0, 85, 255)">Contacto</a>
+                    <a class="nav-link active" style="color:rgb(0, 85, 255)" aria-current="page" href="Ubicacion.html">Ubicacion</a>
+                  <a class="nav-link" href="quienes_somos.html" style="color:rgb(0, 85, 255)">Quienes Somos</a>
                 </div>
               </div>
             </div>
@@ -34,16 +34,35 @@
             <img src="../Imagenes/impresionesvarias.jpg" alt="impresiones varias referencia" class="ImgGaleria1">
             <img src="../Imagenes/impresoramago.jpg" alt="impresora con distintas impresiones" class="Foto4">
         </div>
-        <div class="DivGaleria2">            
-            <img src="../Imagenes/foto3Dperritos.jpg" alt="impresora con perros impresos ejemplo" class="Foto3">
-            <img src="../Imagenes/protesis1.jpg" alt="protesis 1" class="ImgProtesis1">
-        </div> 
-        <p class="Text2">Y aqui se puede apreciar, como mas alla del mundo ludico y mecanico, se puede utilizar esta tecnologia para el bien comun y el avance tecnologico y social</p>   
-        <div class="FotoFinal">
-            <img src="../Imagenes/protesis2.jpg" alt="protesis 2" class="foto5">
-        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../Imagenes/foto3Dperritos.jpg" class="d-block w-75" alt="FotoPerros3D">
+              </div>
+              <div class="carousel-item">
+                <img src="../Imagenes/protesis1.jpg" class="d-block w-75" alt="Protesis1">
+              </div>
+              <div class="carousel-item">
+                <img src="../Imagenes/Motor3D.jpg" class="d-block w-75" alt="Protesis2">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <p class="Text2">Y aqui se puede apreciar, como mas alla del mundo ludico y mecanico, se puede utilizar esta tecnologia para el bien comun y el avance tecnologico y social</p>   
     </main>    
-
+    
     
     <footer>
         <div class="DivFooter">    
@@ -64,5 +83,6 @@
             </ul>
         </div>   
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
