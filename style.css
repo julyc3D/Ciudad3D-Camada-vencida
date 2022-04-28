@@ -304,7 +304,23 @@ Legend{
     width: fit-content;
     margin: 5px 5px 5px;
 }
+.container-fluid{
+    padding: 0%;
+}
+.nav-link{
+    color: white !important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    border: 1.5px solid #000000;
+    transition: border-bottom .15s;
+    padding-bottom: 4px;
+
+}
 @media only screen and (max-width: 768px){
+    .nav-link{
+        margin-left: 2rem;
+        color: rgb(0, 97, 233) !important;
+    }
     .DivGaleria{
         display: grid;
         grid-template-columns: 1fr;
@@ -327,7 +343,7 @@ Legend{
         display: grid;
     }
     .ig{
-        margin-left: 23rem;
+        margin-left: 22rem;
     }
     .Wp{
         margin-left: 20.5rem;
@@ -359,7 +375,13 @@ Legend{
     .HContacto{
         margin-right: 17rem;
         font-size: 35px;
-    } 
+    }
+    .container-fluid{
+        padding: 0%;
+    }
+    .nav-link a{
+        color: white !important;
+    }
     }
     @media only screen and (max-width: 425px) {
         .EnlacesPagina a{
@@ -407,7 +429,7 @@ Legend{
             display: grid;
     }
         .ig{
-            margin-left: 9rem;
+            margin-left: 8.5rem;
     }
         .Wp{
             margin-left: 7rem;
