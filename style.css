@@ -44,12 +44,6 @@ header{
     font-family: 'Ramaraja', serif;
     z-index: -10;
 }
-.DivMain{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 2rem;
-    gap: 2rem;
-}
 .textoVentajas{
     width: 40rem;
     height: fit-content;
@@ -200,13 +194,6 @@ form{
     margin-top: 2rem;
     margin-left: 2rem;
 }
-.DivGaleria2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    gap: 1rem;
-}
 .FotoFinal{
     display: grid;
     grid-template-rows: 1fr;
@@ -253,7 +240,6 @@ form{
 .foto5{
     width: 35rem;
     height: 25rem;
-    border: 2px gold;
 }
 .DivContacto{
     display: flex;
@@ -312,7 +298,7 @@ Legend{
     color: white !important;
 }
 .navbar-light .navbar-nav .nav-link:hover{
-    border: 1.5px solid #000000;
+    border-bottom: 1.5px solid #000000;
     transition: border-bottom .15s;
 }
 
@@ -404,7 +390,8 @@ Legend{
            bottom: 60px;
        }
        .h1{
-           margin-top: 7rem;
+           margin-top: 4rem;
+           font-size: 2.5rem;
        }
        .textoVentajas{
            margin: 0%;
@@ -424,6 +411,7 @@ Legend{
            height: 12rem;
            margin: 0%;
            margin-top: 4rem;
+           margin-left: 1.7rem;
        }
        .DivFooter{
             display: grid;

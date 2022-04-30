@@ -1,0 +1,29 @@
+.DivUbi{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+.Ubi{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    margin-top: 1.5rem;
+    height: 79.2vh;
+    width: 79.2vh;
+}
+.TxtUbi{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 50rem;
+    margin-left: 14.3rem;
+    margin-top: 1.8rem;
+
+    &_P{
+        font-size: 20px;
+        width: 100px;
+        color: #ffffff;
+        font-family: 'Ramaraja', serif;
+        width: fit-content;
+        margin: 5px 5px 5px;
+    }
+}

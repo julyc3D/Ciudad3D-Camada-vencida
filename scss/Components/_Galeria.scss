@@ -1,0 +1,57 @@
+.carousel-inner{
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+.DivGaleria{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.FotoFinal{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.TextGaleria{
+    margin-left: 5.5rem;
+    font-size: 20px;
+    color:#ffffff;
+    border-top: ridge 3px;
+    border-left: ridge 3px;
+    border-right:  ridge 3px;
+    padding: 10px;
+    margin: 2rem;
+    width: fit-content;
+}
+.Text2{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Ramaraja', serif;
+    color: #ffffff;
+    margin-top: 1.3rem;
+    border: 3px;
+    border-style: double;
+    border-color: #ffffff;
+    padding: 5px;
+
+}
+.ImgGaleria1{
+    height: 300px;
+    width: 500px;
+}
+.ImgProtesis1{
+    height: 52.8vh;
+    width: 88vh;
+}
+.Foto4{
+    height: 52.8vh;
+    width: 88vh;
+}
+.foto5{
+    width: 35rem;
+    height: 25rem;
+}
