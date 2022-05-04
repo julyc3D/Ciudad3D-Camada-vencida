@@ -33,6 +33,11 @@ header{
     margin: 5px;
     border: 2px #e30202;
     border-style: double;
+    color: white !important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    border-bottom: 1.5px solid #000000;
+    transition: border-bottom .15s;
 }
 .h1{
     display: grid;
@@ -44,6 +49,9 @@ header{
     font-family: 'Ramaraja', serif;
     z-index: -10;
 }
+.container-fluid{
+    padding: 0%;
+}
 .textoVentajas{
     width: 40rem;
     height: fit-content;
@@ -53,12 +61,12 @@ header{
     font-size: 16px;
     margin-left: 2rem;
 }
-.VideoImpresora{
+.videoImpresora{
     margin-left: 4rem;
     width: 30rem;
     height: 20rem;
 }
-.Txt{
+.txt{
     margin: 8rem auto;
     font-size: 20px;
     color: rgb(255, 255, 255);
@@ -77,7 +85,7 @@ footer{
     margin-top: 3rem;
     height: 26vh;
 }
-.DivFooter{
+.divFooter{
     display: flex
 }
 .divRedes{
@@ -85,32 +93,32 @@ footer{
     flex-direction: column;
     margin-top: 0.5rem;
 }
-.ImgFooter{
+.imgFooter{
     height: 8rem;
     width: 11rem;
     display: flex;
     margin-left: 2rem;
     margin-top: 0.5rem;
-
+    
 }
-.EnlacesPaginaFooter{
+.enlacesPaginaFooter{
     list-style: none;
     margin-left: 20rem;
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
 }
 .EnlacesPaginaFooter a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     line-height: 2rem;
 }
-.Redes{
+.redes{
     list-style: none;
     display: flex;
     flex-direction: column;
     padding-top: 1.2rem;
     margin-top: 0.5rem;
 }
-.Tel{
+.tel{
     position: relative;
     bottom: 7rem;
     color: rgb(0, 0, 0);
@@ -132,17 +140,17 @@ footer{
     width: 21.1vh;
 
 }
-.ImgContactos{
+.imgContactos{
     display: flex;
     flex-direction: column;
     width: 52.8vh;
     height: 44vh;
     border-radius: 50%;
 }
-.insta{
+/* .insta{
     height: 12rem;
     width: 20rem;
-}
+} */
 .RefContactos{
     list-style: none;
     text-decoration: none;
@@ -152,14 +160,14 @@ footer{
     align-content: flex-end;
     
 }
-.TxtContacto{
+.txtContacto{
     display: flex;
     justify-content: center;
     font-size: 20px;
     color: #ffffff;
     margin: 20px;
 }
-.FieldSet{
+.fieldSet{
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -168,7 +176,7 @@ footer{
 form{
     color: white;
 }
-.DivQS .TituloQS{
+.divQS .tituloQS{
     display: flex;
     justify-content: center;
     font-size: 45px;
@@ -177,7 +185,7 @@ form{
 
 
 }
-.DivQS .Txt_QuienesSomos{
+.divQS .txt_QuienesSomos{
     display: flex;
     justify-content: center;
     margin: 20px;
@@ -188,7 +196,7 @@ form{
     margin-left: 10rem;
     margin-top: 2rem;
 }
-.DivGaleria{
+.divGaleria{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 2rem;
@@ -200,7 +208,7 @@ form{
     justify-content: center;
     margin-top: 2rem;
 }
-.TextGaleria{
+.textGaleria{
     margin-left: 5.5rem;
     font-size: 20px;
     color:#ffffff;
@@ -211,7 +219,7 @@ form{
     margin: 2rem;
     width: fit-content;
 }
-.Text2{
+.text2{
     display: grid;
     grid-template-rows: 1fr;
     justify-content: center;
@@ -225,15 +233,15 @@ form{
     padding: 5px;
 
 }
-.ImgGaleria1{
+.imgGaleria1{
     height: 300px;
     width: 500px;
 }
-.ImgProtesis1{
+.imgProtesis1{
     height: 52.8vh;
     width: 88vh;
 }
-.Foto4{
+.foto4{
     height: 52.8vh;
     width: 88vh;
 }
@@ -241,11 +249,11 @@ form{
     width: 35rem;
     height: 25rem;
 }
-.DivContacto{
+.divContacto{
     display: flex;
     align-items: center;
 }
-.HContacto{
+.hContacto{
     display: flex;
     margin-left: 35.2vh;
     font-size: 50px;
@@ -253,7 +261,7 @@ form{
     text-decoration: none;
     
 }
-.HContacto a{
+.hContacto a{
     text-decoration: none;
     color: #ffffff;
 }
@@ -262,12 +270,12 @@ Legend{
     justify-content: center;
     align-content: center;
 }
-.DivUbi{
+.divUbi{
     display: grid;
     grid-template-rows: 1fr;
     justify-content: center;
 }
-.Ubi{
+.ubi{
     display: grid;
     grid-template-rows: 1fr;
     justify-content: center;
@@ -275,7 +283,7 @@ Legend{
     height: 79.2vh;
     width: 79.2vh;
 }
-.TxtUbi{
+.txtUbi{
     display: grid;
     grid-template-rows: 1fr 1fr;
     width: 50rem;
@@ -283,7 +291,7 @@ Legend{
     margin-top: 1.8rem;
 
 }
-.TxtUbi_P{
+.txtUbi_P{
     font-size: 20px;
     width: 100px;
     color: #ffffff;
@@ -291,17 +299,6 @@ Legend{
     width: fit-content;
     margin: 5px 5px 5px;
 }
-.container-fluid{
-    padding: 0%;
-}
-.nav-link{
-    color: white !important;
-}
-.navbar-light .navbar-nav .nav-link:hover{
-    border-bottom: 1.5px solid #000000;
-    transition: border-bottom .15s;
-}
-
 @media only screen and (max-width: 768px){
     .nav-link{
         margin-left: 2rem;

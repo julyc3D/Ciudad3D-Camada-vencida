@@ -3,7 +3,7 @@
         margin-left: 2rem;
         color: rgb(0, 97, 233) !important;
     }
-    .DivGaleria{
+    .divGaleria{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -11,17 +11,17 @@
         margin-left: 0rem;
         
     }
-    .ImgGaleria1{
+    .imgGaleria1{
         margin-left: 8rem;
     }
-    .Foto4{
+    .foto4{
         margin-left: 13rem;
         margin-top: 3rem;
     }
-    .Redes{
+    .redes{
         display: none;
     }
-    .DivFooter{
+    .divFooter{
         display: grid;
     }
     .ig{
@@ -30,10 +30,10 @@
     .Wp{
         margin-left: 20.5rem;
     }
-    .EnlacesPaginaFooter a{
+    .enlacesPaginaFooter a{
         display: none;
     }
-    .DivMain{
+    .divMain{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -41,20 +41,20 @@
     .textoVentajas{
         margin-left: 3rem;
     }
-    .VideoImpresora{
+    .videoImpresora{
         margin-left: 8rem;
     }
-    .TxtUbi_P{
+    .txtUbi_P{
         margin-right: 30rem ;
     }
-    .DivContacto{
+    .divContacto{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         justify-items: center;
         align-items: center;
     }
-    .HContacto{
+    .hContacto{
         margin-right: 17rem;
         font-size: 35px;
     }
@@ -66,7 +66,7 @@
     }
     }
     @media only screen and (max-width: 425px) {
-        .EnlacesPagina a{
+        .enlacesPagina a{
             color: black;
         }
         .imgLOGO{
@@ -80,7 +80,7 @@
            grid-template-columns: 1fr;
            grid-template-rows: 1fr;
        }
-       .EnlacesPagina__li{
+       .enlacesPagina__li{
            position: relative;
            right: 175px;
            bottom: 60px;
@@ -102,14 +102,14 @@
            align-items: flex-start;
 
        }
-       .VideoImpresora{
+       .videoImpresora{
            width: 17rem;
            height: 12rem;
            margin: 0%;
            margin-top: 4rem;
            margin-left: 1.7rem;
        }
-       .DivFooter{
+       .divFooter{
             display: grid;
     }
         .ig{
@@ -118,34 +118,34 @@
         .Wp{
             margin-left: 7rem;
     }
-        .EnlacesPaginaFooter a{
+        .enlacesPaginaFooter a{
             display: none;
     }
-        .ImgFooter{
+        .imgFooter{
             margin-left: 5rem;
         }
-        .DivGaleria{
+        .divGaleria{
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
         }
-        .ImgGaleria1{
+        .imgGaleria1{
             width: 20rem;
             height: 10rem;
             margin:0%
         }
-        .Foto4{
+        .foto4{
             width: 20rem;
             height: 12rem;
             margin: 0%;
             margin-top: 2rem;
         }
-        .Foto3{
+        .foto3{
             width: 17rem;
             height: 10rem;
             margin: 0%;
         }
-        .ImgProtesis1{
+        .imgProtesis1{
             width: 17rem;
             height: 10rem;
         }
@@ -153,28 +153,28 @@
             width: 19rem;
             height: 13rem;
         }
-        .TxtUbi{
+        .txtUbi{
             position: relative;
             right: 230px;
         }
-        .Ubi{
+        .ubi{
             width: 18rem;
             height: 25  rem;
         }
-        .ImgContactos{
+        .imgContactos{
             margin: 0%;
         }
-        .DivContacto{
+        .divContacto{
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 1fr;
             margin: 0%;
         }
-        .ImgContactos{
+        .imgContactos{
             position: relative;
             right: 170px;
         }
-        .HContacto{
+        .hContacto{
             position: relative;
             right: 150px;
             height: 5rem;

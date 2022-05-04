@@ -4,7 +4,7 @@ footer{
     margin-top: 3rem;
     height: 26vh;
 }
-.DivFooter{
+.divFooter{
     display: flex
 }
 .divRedes{
@@ -12,42 +12,42 @@ footer{
     flex-direction: column;
     margin-top: 0.5rem;
 }
-.ImgFooter{
+.imgFooter{
     height: 8rem;
     width: 11rem;
     display: flex;
-    margin-left: 2rem;
+    margin-left: 20rem;
     margin-top: 0.5rem;
 
 }
-.EnlacesPaginaFooter{
+.enlacesPaginaFooter{
     list-style: none;
-    margin-left: 20rem;
-    margin-top: 0.5rem;
-    .EnlacesPaginaFooter a{
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        line-height: 2rem;
-    }
+    margin-left: 17rem;
+    margin-top: 1.5rem;
 }
-.Redes{
+.EnlacesPaginaFooter a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    line-height: 2rem;
+}
+.redes{
     list-style: none;
     display: flex;
     flex-direction: column;
     padding-top: 1.2rem;
     margin-top: 0.5rem;
 }
-.Tel{
+.tel{
     position: relative;
-    bottom: 7rem;
+    margin-top: 3rem;
     color: rgb(0, 0, 0);
 }
 .insta{
     color: rgb(0, 0, 0);
-    .insta a{
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-    }
+}
+.insta a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 .ig{
     margin-left: 2rem;
