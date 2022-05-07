@@ -1,7 +1,7 @@
 @media only screen and (max-width: 768px){
     .nav-link{
         margin-left: 2rem;
-        color: rgb(0, 97, 233) !important;
+        color: rgb(255, 255, 255) !important;
     }
     .divGaleria{
         display: grid;
@@ -9,7 +9,6 @@
         grid-template-rows: 1fr 1fr;
         margin-top: 0rem;
         margin-left: 0rem;
-        
     }
     .imgGaleria1{
         margin-left: 8rem;
@@ -64,6 +63,25 @@
     .nav-link a{
         color: white !important;
     }
+    .css-button-fully-rounded--black {
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 20px;
+        border: 2px solid #212529;
+        background: #212529;
+      }
+      .css-button-fully-rounded--black:hover {
+        background: #fff;
+        color: #212529
+      }
     }
     @media only screen and (max-width: 425px) {
         .enlacesPagina a{
@@ -71,7 +89,7 @@
         }
         .imgLOGO{
             
-            margin-left: 5rem;
+             margin-left: 5rem;
              width: 10rem;
              height: 5rem;
         }
@@ -87,10 +105,12 @@
        }
        .h1{
            margin-top: 4rem;
-           font-size: 2.5rem;
+           font-size: 3.5rem;
+           color: #107ca2;
        }
        .textoVentajas{
            margin: 0%;
+           margin-left: 0.3rem;
            width: fit-content;
            height: fit-content;
            
@@ -107,16 +127,16 @@
            height: 12rem;
            margin: 0%;
            margin-top: 4rem;
-           margin-left: 1.7rem;
+           margin-left: 3.5rem;
        }
        .divFooter{
             display: grid;
     }
         .ig{
-            margin-left: 8.5rem;
+            margin-left: 10.5rem;
     }
         .Wp{
-            margin-left: 7rem;
+            margin-left: 9rem;
     }
         .enlacesPaginaFooter a{
             display: none;
@@ -132,13 +152,15 @@
         .imgGaleria1{
             width: 20rem;
             height: 10rem;
-            margin:0%
+            margin:0%;
+            margin-left: 1.9rem;
         }
         .foto4{
             width: 20rem;
             height: 12rem;
             margin: 0%;
             margin-top: 2rem;
+            margin-left: 1.9rem;
         }
         .foto3{
             width: 17rem;
@@ -163,6 +185,7 @@
         }
         .imgContactos{
             margin: 0%;
+            margin-left: 9rem;
         }
         .divContacto{
             display: grid;
@@ -174,15 +197,45 @@
             position: relative;
             right: 170px;
         }
+        .imgContactos1{
+            margin-left: 1rem;
+            width: 52.8vh;
+            height: 44vh;
+        }
         .hContacto{
             position: relative;
-            right: 150px;
+            right: 10px;
             height: 5rem;
             width: 10rem;
             font-size: 20px;
+            
+        }
+        .hContacto1{
+            font-size: 20px;
+            color: white;
+            margin-left: 1.5rem;
         }
         .carousel-inner{
             position: relative;
             right: 7.5rem;
         }
+        .css-button-fully-rounded--black {
+            min-width: 130px;
+            height: 40px;
+            color: #fff;
+            padding: 5px 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            display: inline-block;
+            outline: none;
+            border-radius: 20px;
+            border: 2px solid #212529;
+            background: #212529;
+          }
+          .css-button-fully-rounded--black:hover {
+            background: #fff;
+            color: #212529
+          }
     }

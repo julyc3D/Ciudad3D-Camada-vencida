@@ -186,6 +186,13 @@ Legend {
   height: 44vh;
   border-radius: 50%; }
 
+.imgContactos1 {
+  display: flex;
+  flex-direction: column;
+  width: 52.8vh;
+  height: 44vh;
+  border-radius: 50%; }
+
 .instaPic {
   height: 12rem;
   width: 20rem; }
@@ -290,7 +297,7 @@ Legend {
 @media only screen and (max-width: 768px) {
   .nav-link {
     margin-left: 2rem;
-    color: #0061e9 !important; }
+    color: white !important; }
   .divGaleria {
     display: grid;
     grid-template-columns: 1fr;
@@ -334,7 +341,24 @@ Legend {
   .container-fluid {
     padding: 0%; }
   .nav-link a {
-    color: white !important; } }
+    color: white !important; }
+  .css-button-fully-rounded--black {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #212529;
+    background: #212529; }
+  .css-button-fully-rounded--black:hover {
+    background: #fff;
+    color: #212529; } }
 
 @media only screen and (max-width: 425px) {
   .enlacesPagina a {
@@ -353,9 +377,11 @@ Legend {
     bottom: 60px; }
   .h1 {
     margin-top: 4rem;
-    font-size: 2.5rem; }
+    font-size: 3.5rem;
+    color: #107ca2; }
   .textoVentajas {
     margin: 0%;
+    margin-left: 0.3rem;
     width: fit-content;
     height: fit-content; }
   .barraNav {
@@ -368,13 +394,13 @@ Legend {
     height: 12rem;
     margin: 0%;
     margin-top: 4rem;
-    margin-left: 1.7rem; }
+    margin-left: 3.5rem; }
   .divFooter {
     display: grid; }
   .ig {
-    margin-left: 8.5rem; }
+    margin-left: 10.5rem; }
   .Wp {
-    margin-left: 7rem; }
+    margin-left: 9rem; }
   .enlacesPaginaFooter a {
     display: none; }
   .imgFooter {
@@ -386,12 +412,14 @@ Legend {
   .imgGaleria1 {
     width: 20rem;
     height: 10rem;
-    margin: 0%; }
+    margin: 0%;
+    margin-left: 1.9rem; }
   .foto4 {
     width: 20rem;
     height: 12rem;
     margin: 0%;
-    margin-top: 2rem; }
+    margin-top: 2rem;
+    margin-left: 1.9rem; }
   .foto3 {
     width: 17rem;
     height: 10rem;
@@ -409,7 +437,8 @@ Legend {
     width: 18rem;
     height: 25  rem; }
   .imgContactos {
-    margin: 0%; }
+    margin: 0%;
+    margin-left: 9rem; }
   .divContacto {
     display: grid;
     grid-template-columns: 1fr;
@@ -418,12 +447,37 @@ Legend {
   .imgContactos {
     position: relative;
     right: 170px; }
+  .imgContactos1 {
+    margin-left: 1rem;
+    width: 52.8vh;
+    height: 44vh; }
   .hContacto {
     position: relative;
-    right: 150px;
+    right: 10px;
     height: 5rem;
     width: 10rem;
     font-size: 20px; }
+  .hContacto1 {
+    font-size: 20px;
+    color: white;
+    margin-left: 1.5rem; }
   .carousel-inner {
     position: relative;
-    right: 7.5rem; } }
+    right: 7.5rem; }
+  .css-button-fully-rounded--black {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #212529;
+    background: #212529; }
+  .css-button-fully-rounded--black:hover {
+    background: #fff;
+    color: #212529; } }
