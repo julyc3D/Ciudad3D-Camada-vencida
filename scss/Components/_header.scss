@@ -29,11 +29,35 @@ header{
 .nav-link{
     padding: 5px;
     margin: 5px;
-    border: 2px #e30202;
-    border-style: double;
     color: white !important;
 }
-.navbar-light .navbar-nav .nav-link:hover{
-    border-bottom: 1.5px solid #000000;
-    transition: border-bottom .15s;
-}
+.css-button-retro--red {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+  }
+  .css-button-retro--red:hover:after {
+    top: 0;
+    left: 0;
+  }
+  .css-button-retro--red:after {
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    transition: 0.2s;
+    background-color: map-get($color , color-principal );
+  }

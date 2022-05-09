@@ -1,0 +1,30 @@
+﻿En archivo index.html:
+        keywords: “ciudad 3d, 3d, ciudad, diseño 3d, impresion 3d, 3D, ventajas, impresora”        Description: "Diseño e impresion 3D a pedido, impresiones varias, de todo tipo, diseño mecanico, envios a todo el pais"
+Title: “Ciudad.3D”
+
+
+En archivo Ubicacion.html: 
+        keywords: “"ciudad 3d, 3d, ciudad, diseño 3d, impresion 3d, 3D, ventajas, impresora,     ubicacion, zona geografica, impresiones"
+        Description: "Ubicacion del taller de Ciudad.3D, el cual se encuentra en la ciudad de Quilmes en zona sur de Buenos Aires"
+Title: “Ciudad.3D | Ubicacion
+
+
+En archivo Quienes_somos.html: 
+        Keywords: "ciudad 3d, 3d, ciudad, diseño 3d, impresion 3d, 3D, ventajas, impresora, quienes somos, descripcion, conocenos, informacion"
+        Description:"Somos un emprendimiento dedicado a la impresion y diseño 3D orientado hacia el diseño mecanico y algunos proyectos organicos"
+        Title: “Ciudad.3D | Quienes somos”
+
+
+En archivo Galeria.html:
+        Keywords: "ciudad 3d, 3d, ciudad, diseño 3d, impresion 3d, 3D, ventajas, impresora, galeria, fotos, carrusel, impresiones, diseños, objetos"
+        Description: "Galeria de Ciudad 3D, la cual esta compuesta de distintos trabajos, diseños, herramientas, impresoras, y productos terminados"
+        Title: “Ciudad.3D | Galeria”
+
+
+En archivo Contacto.html:
+        Keywords: "ciudad 3d, 3d, ciudad, diseño 3d, impresion 3d, 3D, ventajas, impresora, contacto, informacion, instagram, mail, Email, whatsapp, contacto"
+Description: "Podes contactarte con nosotros por Email, Instagram o nuestro numero de whatsapp por cualquier cotizacion o consulta"
+Title: “Ciudad.3D | Contacto”
+
+
+Todas las fotos optimizadas para que pesen menos de 200kb.

@@ -1,11 +1,9 @@
 .divUbi{
-    display: grid;
-    grid-template-rows: 1fr;
+    @include grid-row;
     justify-content: center;
 }
 .ubi{
-    display: grid;
-    grid-template-rows: 1fr;
+    @include grid-row;
     justify-content: center;
     margin-top: 1.5rem;
     height: 79.2vh;
@@ -21,9 +19,13 @@
     &_P{
         font-size: 20px;
         width: 100px;
-        color: #ffffff;
+        color: map-get($color , color-terciario );
         font-family: 'Ramaraja', serif;
         width: fit-content;
         margin: 5px 5px 5px;
     }
+}
+.textoEnvio{
+    @extend .txtUbi_P;
+    text-decoration: underline red;
 }

@@ -1,8 +1,7 @@
 .h1{
-    display: grid;
-    grid-template-rows: 1fr;
+    @include grid-row;
     justify-content: center;
-    color:#ffffff;
+    color: map-get($color , color-terciario );
     font-size: 4rem;
     margin-top: 1rem;
     font-family: 'Ramaraja', serif;
@@ -13,7 +12,7 @@
     height: fit-content;
     line-height:  2rem;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(255, 255, 255);
+    color: map-get($color , color-terciario );
     font-size: 16px;
     margin-left: 2rem;
 }
@@ -25,11 +24,11 @@
 .txt{
     margin: 8rem auto;
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: map-get($color , color-terciario );
     padding: 10px;
     border: 5px;
     border-style:double;
-    border-color: #ffffff;
+    border-color: map-get($color , color-terciario );
     width: fit-content;
 }
 .Txt a{

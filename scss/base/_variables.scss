@@ -1,1 +1,11 @@
-$color-principal: #6a0000;
+@mixin grid-row{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+$color:(
+color-principal: #6a0000,
+    color-secundario: #107ca2,
+    color-terciario: white,
+    color-cuaternario: black,
+    )

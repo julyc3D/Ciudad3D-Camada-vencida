@@ -18,6 +18,7 @@ footer{
     display: flex;
     margin-left: 20rem;
     margin-top: 0.5rem;
+    
 
 }
 .enlacesPaginaFooter{
@@ -27,7 +28,7 @@ footer{
 }
 .EnlacesPaginaFooter a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: map-get($color , color-terciario );
     line-height: 2rem;
 }
 .redes{
@@ -40,14 +41,14 @@ footer{
 .tel{
     position: relative;
     margin-top: 3rem;
-    color: rgb(0, 0, 0);
+    color: map-get($color , color-cuaternario );
 }
 .insta{
-    color: rgb(0, 0, 0);
+    color: map-get($color , color-cuaternario );
 }
 .insta a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: map-get($color , color-cuaternario );
 }
 .ig{
     margin-left: 2rem;
@@ -55,7 +56,9 @@ footer{
     width: 10.5vh;
 }
 .Wp{
-    height: 15.9vh;
-    width: 21.1vh;
+    height: 3.8rem;
+    width: 3.8rem;
+    margin-top: 0.7rem;
+    margin-left: 2rem;
 
 }
