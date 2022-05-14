@@ -1,71 +1,91 @@
-@media only screen and (max-width: 768px){
-    .nav-link{
+@media only screen and (max-width: 768px) {
+    .css-button-retro--red:after {
+        display: none;
+    }
+
+    .imgFooter {
+        display: none;
+    }
+
+    .nav-link {
         margin-left: 2rem;
         color: rgb(255, 255, 255) !important;
     }
-    .divGaleria{
+
+    .divGaleria {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         margin-top: 0rem;
         margin-left: 0rem;
     }
-    .imgGaleria1{
+
+    .imgGaleria1 {
         margin-left: 8rem;
     }
-    .foto4{
+
+    .foto4 {
         margin-left: 13rem;
         margin-top: 3rem;
     }
-    .redes{
+
+    .redes {
         display: none;
     }
-    .divFooter{
+
+    .divFooter {
         display: grid;
     }
-    .ig{
-        margin-left: 22rem;
-    }
-    .Wp{
-        margin-left: 21.9rem;
+
+    .Wp {
         margin-top: 0.3rem;
-        width: 3rem;
-        height: 3rem;
+        width: 10.5vh;
+        height: 10.5vh;
     }
-    .enlacesPaginaFooter a{
+
+    .enlacesPaginaFooter a {
         display: none;
     }
-    .divMain{
+
+    .divMain {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
     }
-    .textoVentajas{
-        margin-left: 3rem;
+
+    .videoImpresora {
+        display: block;
+        margin: 0%;
+        width: 20rem;
+        height: 15rem;
     }
-    .videoImpresora{
-        margin-left: 8rem;
-    }
-    .txtUbi_P{
-        margin-right: 30rem ;
-    }
-    .divContacto{
+
+    .divContacto {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         justify-items: center;
         align-items: center;
     }
-    .hContacto{
-        margin-right: 17rem;
+
+    .hContacto {
         font-size: 35px;
+        justify-content: center;
+        align-content: center;
     }
-    .container-fluid{
+
+    .hContacto1 {
+        font-size: 30px;
+    }
+
+    .container-fluid {
         padding: 0%;
     }
-    .nav-link a{
+
+    .nav-link a {
         color: white !important;
     }
+
     .css-button-fully-rounded--black {
         min-width: 130px;
         height: 40px;
@@ -80,166 +100,207 @@
         border-radius: 20px;
         border: 2px solid #212529;
         background: #212529;
-      }
-      .css-button-fully-rounded--black:hover {
+    }
+
+    .css-button-fully-rounded--black:hover {
         background: #fff;
         color: #212529
-      }
     }
-    @media only screen and (max-width: 425px) {
-        .enlacesPagina a{
-            color: black;
-        }
-        .imgLOGO{
-            
-             margin-left: 5rem;
-             width: 10rem;
-             height: 5rem;
-        }
-        .headerTop{
-            display: grid;
-           grid-template-columns: 1fr;
-           grid-template-rows: 1fr;
-       }
-       .enlacesPagina__li{
-           position: relative;
-           right: 175px;
-           bottom: 60px;
-       }
-       .h1{
-           margin-top: 4rem;
-           font-size: 3.5rem;
-           color: #107ca2;
-       }
-       .textoVentajas{
-           margin: 0%;
-           margin-left: 0.3rem;
-           width: fit-content;
-           height: fit-content;
-           
-       }
-       .barraNav{
-           display: flex;
-           margin: 0%;
-           justify-content: flex-start;
-           align-items: flex-start;
 
-       }
-       .videoImpresora{
-           width: 17rem;
-           height: 12rem;
-           margin: 0%;
-           margin-top: 4rem;
-           margin-left: 3.5rem;
-       }
-       .divFooter{
-            display: grid;
+    .imgContactos {
+        height: 30vh;
+        width: 30vh;
     }
-        .ig{
-            margin-left: 10.5rem;
+
+    .imgContactos1 {
+        height: 35vh;
+        width: 35vh;
     }
-        .Wp{
-            margin-left: 10.4rem;
-            margin-top: 0.3rem;
+
+    .instaPic {
+        height: 30vh;
+        width: 50vh;
     }
-        .enlacesPaginaFooter a{
-            display: none;
+
+    .divRedes {
+        align-items: center;
     }
-        .imgFooter{
-            margin-left: 5rem;
-        }
-        .divGaleria{
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr;
-        }
-        .imgGaleria1{
-            width: 20rem;
-            height: 10rem;
-            margin:0%;
-            margin-left: 1.9rem;
-        }
-        .foto4{
-            width: 20rem;
-            height: 12rem;
-            margin: 0%;
-            margin-top: 2rem;
-            margin-left: 1.9rem;
-        }
-        .foto3{
-            width: 17rem;
-            height: 10rem;
-            margin: 0%;
-        }
-        .imgProtesis1{
-            width: 17rem;
-            height: 10rem;
-        }
-        .foto5{
-            width: 19rem;
-            height: 13rem;
-        }
-        .txtUbi{
-            position: relative;
-            right: 195px;
-        }
-        .ubi{
-            width: 18rem;
-            height: 25  rem;
-        }
-        .imgContactos{
-            margin: 0%;
-            margin-left: 9rem;
-        }
-        .divContacto{
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr 1fr;
-            margin: 0%;
-        }
-        .imgContactos{
-            position: relative;
-            right: 170px;
-        }
-        .imgContactos1{
-            margin-left: 1rem;
-            width: 52.8vh;
-            height: 44vh;
-        }
-        .hContacto{
-            position: relative;
-            right: 10px;
-            height: 5rem;
-            width: 10rem;
-            font-size: 20px;
-            
-        }
-        .hContacto1{
-            font-size: 20px;
-            color: white;
-            margin-left: 1.5rem;
-        }
-        .carousel-inner{
-            position: relative;
-            right: 7.5rem;
-        }
-        .css-button-fully-rounded--black {
-            min-width: 130px;
-            height: 40px;
-            color: #fff;
-            padding: 5px 10px;
-            font-weight: bold;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            position: relative;
-            display: inline-block;
-            outline: none;
-            border-radius: 20px;
-            border: 2px solid #212529;
-            background: #212529;
-          }
-          .css-button-fully-rounded--black:hover {
-            background: #fff;
-            color: #212529
-          }
+}
+
+@media only screen and (max-width: 425px) {
+    .enlacesPagina a {
+        color: black;
     }
+
+    .imgLOGO {
+
+        margin-left: 5rem;
+        width: 10rem;
+        height: 5rem;
+    }
+
+    .headerTop {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .enlacesPagina__li {
+        position: relative;
+        right: 175px;
+        bottom: 60px;
+    }
+
+    .h1 {
+        margin-top: 4rem;
+        font-size: 3.5rem;
+        color: #107ca2;
+    }
+
+    .textoVentajas {
+        margin: 0%;
+        margin-left: 0.3rem;
+        width: fit-content;
+        height: fit-content;
+
+    }
+
+    .barraNav {
+        display: flex;
+        margin: 0%;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+
+    .videoImpresora {
+        width: 17rem;
+        height: 12rem;
+        margin: 0%;
+        margin-top: 4rem;
+        margin-left: 3.5rem;
+    }
+
+    .divFooter {
+        display: grid;
+    }
+
+    .Wp {
+        margin-top: 0.3rem;
+        width: 10.5vh;
+        height: 10.5vh;
+    }
+
+    .enlacesPaginaFooter a {
+        display: none;
+    }
+
+    .divGaleria {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .imgGaleria1 {
+        width: 20rem;
+        height: 10rem;
+        margin: 0%;
+        margin-left: 1.9rem;
+    }
+
+    .foto4 {
+        width: 20rem;
+        height: 12rem;
+        margin: 0%;
+        margin-top: 2rem;
+        margin-left: 1.9rem;
+    }
+
+    .foto3 {
+        width: 17rem;
+        height: 10rem;
+        margin: 0%;
+    }
+
+    .imgProtesis1 {
+        width: 17rem;
+        height: 10rem;
+    }
+
+    .foto5 {
+        width: 19rem;
+        height: 13rem;
+    }
+
+    .txtUbi {
+        margin-top: 2rem;
+    }
+
+    .ubi {
+        width: 18rem;
+        height: 25rem;
+    }
+
+    .divContacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgContactos {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 30vh;
+        height: 25vh;
+    }
+
+    .imgContactos1 {
+        width: 30vh;
+        height: 25vh;
+        margin-bottom: 2rem;
+    }
+
+    .instaPic {
+        height: 25vh;
+        width: 43vh;
+        margin: 0%;
+        margin-bottom: 1rem;
+    }
+
+    .hContacto {
+        height: 5rem;
+        font-size: 20px;
+
+    }
+
+    .hContacto1 {
+        font-size: 20px;
+        color: white;
+    }
+
+    .carousel-inner {
+        position: relative;
+        right: 7.5rem;
+    }
+
+    .css-button-fully-rounded--black {
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 20px;
+        border: 2px solid #212529;
+        background: #212529;
+    }
+
+    .css-button-fully-rounded--black:hover {
+        background: #fff;
+        color: #212529
+    }
+}

@@ -116,8 +116,8 @@ footer {
   width: 10.5vh; }
 
 .Wp {
-  height: 3.8rem;
-  width: 3.8rem;
+  height: 10.5vh;
+  width: 10.5vh;
   margin-top: 0.7rem;
   margin-left: 2rem; }
 
@@ -132,7 +132,6 @@ footer {
   z-index: -10; }
 
 .textoVentajas {
-  width: 40rem;
   height: fit-content;
   line-height: 2rem;
   font-family: 'Times New Roman', Times, serif;
@@ -142,6 +141,7 @@ footer {
 
 .videoImpresora {
   margin-left: 4rem;
+  margin-top: 1rem;
   width: 30rem;
   height: 20rem; }
 
@@ -185,20 +185,12 @@ footer {
 form {
   color: white; }
 
-.divContacto {
-  display: flex;
-  align-items: center; }
-
 .hContacto1 {
-  display: flex;
-  margin-left: 35.2vh;
   font-size: 50px;
   color: white;
   text-decoration: none; }
 
 .hContacto {
-  display: flex;
-  margin-left: 35.2vh;
   font-size: 50px;
   color: white;
   text-decoration: none; }
@@ -213,22 +205,17 @@ Legend {
   align-content: center; }
 
 .imgContactos {
-  display: flex;
-  flex-direction: column;
-  width: 52.8vh;
-  height: 44vh;
-  border-radius: 50%; }
+  width: 48vh;
+  height: 40vh; }
 
 .imgContactos1 {
-  display: flex;
-  flex-direction: column;
-  width: 52.8vh;
-  height: 44vh;
+  width: 50vh;
+  height: 42vh;
   border-radius: 50%; }
 
 .instaPic {
   height: 12rem;
-  width: 20rem; }
+  width: 22rem; }
 
 .carousel-inner {
   margin-left: 10rem;
@@ -314,23 +301,20 @@ Legend {
   width: 79.2vh; }
 
 .txtUbi {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  width: 50rem;
-  margin-left: 14.3rem;
-  margin-top: 1.8rem; }
+  margin-top: 2rem; }
   .txtUbi_P, .textoEnvio {
     font-size: 20px;
-    width: 100px;
     color: white;
-    font-family: 'Ramaraja', serif;
-    width: fit-content;
-    margin: 5px 5px 5px; }
+    font-family: 'Ramaraja', serif; }
 
 .textoEnvio {
   text-decoration: underline red; }
 
 @media only screen and (max-width: 768px) {
+  .css-button-retro--red:after {
+    display: none; }
+  .imgFooter {
+    display: none; }
   .nav-link {
     margin-left: 2rem;
     color: white !important; }
@@ -349,25 +333,21 @@ Legend {
     display: none; }
   .divFooter {
     display: grid; }
-  .ig {
-    margin-left: 22rem; }
   .Wp {
-    margin-left: 21.9rem;
     margin-top: 0.3rem;
-    width: 3rem;
-    height: 3rem; }
+    width: 10.5vh;
+    height: 10.5vh; }
   .enlacesPaginaFooter a {
     display: none; }
   .divMain {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr; }
-  .textoVentajas {
-    margin-left: 3rem; }
   .videoImpresora {
-    margin-left: 8rem; }
-  .txtUbi_P, .textoEnvio {
-    margin-right: 30rem; }
+    display: block;
+    margin: 0%;
+    width: 20rem;
+    height: 15rem; }
   .divContacto {
     display: grid;
     grid-template-columns: 1fr;
@@ -375,8 +355,11 @@ Legend {
     justify-items: center;
     align-items: center; }
   .hContacto {
-    margin-right: 17rem;
-    font-size: 35px; }
+    font-size: 35px;
+    justify-content: center;
+    align-content: center; }
+  .hContacto1 {
+    font-size: 30px; }
   .container-fluid {
     padding: 0%; }
   .nav-link a {
@@ -397,7 +380,18 @@ Legend {
     background: #212529; }
   .css-button-fully-rounded--black:hover {
     background: #fff;
-    color: #212529; } }
+    color: #212529; }
+  .imgContactos {
+    height: 30vh;
+    width: 30vh; }
+  .imgContactos1 {
+    height: 35vh;
+    width: 35vh; }
+  .instaPic {
+    height: 30vh;
+    width: 50vh; }
+  .divRedes {
+    align-items: center; } }
 
 @media only screen and (max-width: 425px) {
   .enlacesPagina a {
@@ -436,15 +430,12 @@ Legend {
     margin-left: 3.5rem; }
   .divFooter {
     display: grid; }
-  .ig {
-    margin-left: 10.5rem; }
   .Wp {
-    margin-left: 10.4rem;
-    margin-top: 0.3rem; }
+    margin-top: 0.3rem;
+    width: 10.5vh;
+    height: 10.5vh; }
   .enlacesPaginaFooter a {
     display: none; }
-  .imgFooter {
-    margin-left: 5rem; }
   .divGaleria {
     display: grid;
     grid-template-columns: 1fr;
@@ -471,36 +462,34 @@ Legend {
     width: 19rem;
     height: 13rem; }
   .txtUbi {
-    position: relative;
-    right: 195px; }
+    margin-top: 2rem; }
   .ubi {
     width: 18rem;
-    height: 25  rem; }
-  .imgContactos {
-    margin: 0%;
-    margin-left: 9rem; }
+    height: 25rem; }
   .divContacto {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin: 0%; }
+    display: flex;
+    flex-direction: column; }
   .imgContactos {
-    position: relative;
-    right: 170px; }
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 30vh;
+    height: 25vh; }
   .imgContactos1 {
-    margin-left: 1rem;
-    width: 52.8vh;
-    height: 44vh; }
+    width: 30vh;
+    height: 25vh;
+    margin-bottom: 2rem; }
+  .instaPic {
+    height: 25vh;
+    width: 43vh;
+    margin: 0%;
+    margin-bottom: 1rem; }
   .hContacto {
-    position: relative;
-    right: 10px;
     height: 5rem;
-    width: 10rem;
     font-size: 20px; }
   .hContacto1 {
     font-size: 20px;
-    color: white;
-    margin-left: 1.5rem; }
+    color: white; }
   .carousel-inner {
     position: relative;
     right: 7.5rem; }

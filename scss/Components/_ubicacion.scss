@@ -10,19 +10,13 @@
     width: 79.2vh;
 }
 .txtUbi{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    width: 50rem;
-    margin-left: 14.3rem;
-    margin-top: 1.8rem;
+    margin-top: 2rem;
 
     &_P{
         font-size: 20px;
-        width: 100px;
         color: map-get($color , color-terciario );
         font-family: 'Ramaraja', serif;
-        width: fit-content;
-        margin: 5px 5px 5px;
+
     }
 }
 .textoEnvio{

@@ -23,24 +23,15 @@
 form{
     color: map-get($color , color-terciario );
 }
-.divContacto{
-    display: flex;
-    align-items: center;
-}
 .hContacto1{
-    display: flex;
-    margin-left: 35.2vh;
     font-size: 50px;
     color: map-get($color, color-terciario );
     text-decoration: none;
 }
 .hContacto{
-    display: flex;
-    margin-left: 35.2vh;
     font-size: 50px;
     color: map-get($color, color-terciario );
     text-decoration: none;
-    
 }
 .hContacto a{
     text-decoration: none;
@@ -52,21 +43,15 @@ Legend{
     align-content: center;
 }
 .imgContactos{
-    display: flex;
-    flex-direction: column;
-    width: 52.8vh;
-    height: 44vh;
-    border-radius: 50%;
+    width: 48vh;
+    height: 40vh;
 }
 .imgContactos1{
-        display: flex;
-        flex-direction: column;
-        width: 52.8vh;
-        height: 44vh;
+        width: 50vh;
+        height: 42vh;
         border-radius: 50%;
-
 }
 .instaPic{
     height: 12rem;
-    width: 20rem;
+    width: 22rem;
 }
