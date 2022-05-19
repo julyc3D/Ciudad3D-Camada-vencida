@@ -1,126 +1,80 @@
-.main{
-  margin-top: 15%;
+@import url('//fonts.googleapis.com/css?family=Pacifico&text=Pure');
+@import url('//fonts.googleapis.com/css?family=Roboto:700&text=css');
+@import url('//fonts.googleapis.com/css?family=Kaushan+Script&text=!');
+
+body { 
+  min-height: 450px;
+  height: 100vh;
+  margin: 0;
+  background: radial-gradient(circle, darken(dodgerblue, 10%), #1f4f96, #1b2949, #000);
 }
 
-.st0{fill:#fff}
-.st2{fill:#5d89af}
-.st3{fill:#709abf}
-.st4,.st6{
-  fill:#fff;
-  stroke:#b3dcdf;
-  stroke-miterlimit:10
-}
-.st6{
-  stroke:#5d89af;
-  stroke-width:2
-}
-.st7,.st8,.st9{
-  stroke:#709abf;
-  stroke-miterlimit:10
+.stage {
+  height: 300px;
+  width: 500px;
+  margin: auto;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  perspective: 9999px;
+  transform-style: preserve-3d;
 }
 
-.st7{
-  stroke-width:5;
-  stroke-linecap:round;
-  fill:none
-}
-.st8,.st9{
-  fill:#fff
-}
-.st9{
-  fill:none
-}
-.st10{
-  
+.layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  animation: ಠ_ಠ 5s infinite alternate ease-in-out -7.5s;
+  animation-fill-mode: forwards;
+  transform: rotateY(40deg) rotateX(33deg) translateZ(0);
 }
 
-#cloud1{
-  animation: cloud003 15s linear infinite;
+.layer:after {
+  font: 150px/0.65 'Pacifico', 'Kaushan Script', Futura, 'Roboto', 'Trebuchet MS', Helvetica, sans-serif;
+  content: '404  :( \A   Page not\A Found';
+  white-space: pre;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50px; 
+  color: darken(#fff, 4%);
+  letter-spacing: -2px;
+  text-shadow: 4px 0 10px hsla(0, 0%, 0%, .13);
 }
 
-#cloud2{
-  animation: cloud002 25s linear infinite;
+$i: 1;
+$NUM_LAYERS: 20;
+@for $i from 1 through $NUM_LAYERS {
+  .layer:nth-child(#{$i}):after{
+    transform: translateZ(($i - 1) * -1.5px);
+  }
 }
 
-#cloud3{
-  animation: cloud003 20s linear infinite;
+.layer:nth-child(n+#{round($NUM_LAYERS/2)}):after {
+  -webkit-text-stroke: 3px hsla(0, 0%, 0%, .25);
 }
 
-#cloud4{
-  animation: float 4s linear infinite;
+.layer:nth-child(n+#{round($NUM_LAYERS/2 + 1)}):after {
+  -webkit-text-stroke: 15px dodgerblue;
+  text-shadow: 6px 0 6px darken(dodgerblue,35%),
+               5px 5px 5px darken(dodgerblue,40%),
+               0 6px 6px darken(dodgerblue,35%);
 }
 
-#cloud5{
-  animation: float 8s linear infinite;
+.layer:nth-child(n+#{round($NUM_LAYERS/2 + 2)}):after {
+  -webkit-text-stroke: 15px darken(dodgerblue, 10%);
 }
 
-#cloud7{
-  animation: float 5s linear infinite;
+.layer:last-child:after {
+  -webkit-text-stroke: 17px hsla(0, 0%, 0%, .1);
 }
 
-#tracks{
-  animation: slide 650ms linear infinite;
+.layer:first-child:after{
+  color: #fff;
+  text-shadow: none;
 }
 
-#bumps{
-  animation: land 10000ms linear infinite;
-}
-
-@keyframes jig {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(1px); }
-    100% { transform: translateY(0px); }
-}
-
-#car-layers{
-  animation: jig 0.35s linear infinite;
-}
-
-@keyframes land {
-    from { transform: translateX(0); }
-    to { transform: translateX(1000px); }
-}
-
-
-@keyframes slide {
-    from { transform: translateX(0px); }
-    to { transform: translateX(100px); }
-}
-
-/* @keyframes cloudFloat {
-  0% { transform: translateX(0) translateY(3px); }
-  100% { transform: translateX(1000px) translateY(0); }
-} */
-
-@keyframes cloud001 {
-  0% { transform: translateX(-1000px) translateY(3px); }
-  100% { transform: translateX(1000px) translateY(0); }
-}
-
-@keyframes cloud002 {
-  0% { transform: translateX(-1000px) translateY(3px); }
-  100% { transform: translateX(1000px) translateY(0); }
-}
-
-@keyframes cloud003 {
-  0% { transform: translateX(-1000px) translateY(3px); }
-  100% { transform: translateX(1000px) translateY(0); }
-}
-
-@keyframes float {
-    0% { transform: translateY(0px) translateX(0); }
-    50% { transform: translateY(8px) translateX(5px); }
-    100% { transform: translateY(0px) translateX(0); }
-}
-
-#bracefront, #braceback{
-  animation: braces 1s linear infinite;
-}
-
-@keyframes braces {
-    0% { transform: translateX(-2px); }
-  25% { transform: translateX(3px); }
-    50% { transform: translateX(-2px); }
-    75% { transform: translateX(3px); }
-  100% { transform: translateX(-2px); }
+@keyframes ಠ_ಠ {
+  100% { transform: rotateY(-40deg) rotateX(-43deg); }
 }
