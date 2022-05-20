@@ -115,7 +115,7 @@ footer {
   height: 10.5vh;
   width: 10.5vh; }
 
-.Wp {
+.wp {
   height: 10.5vh;
   width: 10.5vh;
   margin-top: 0.7rem;
@@ -155,19 +155,11 @@ footer {
   border-color: white;
   width: fit-content; }
 
-.Txt a {
+.txt a {
   color: #25e6b6; }
 
 .container-fluid {
   padding: 0%; }
-
-.RefContactos {
-  list-style: none;
-  text-decoration: none;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  align-content: flex-end; }
 
 .txtContacto {
   display: flex;
@@ -226,12 +218,6 @@ Legend {
   grid-template-columns: 1fr 1fr;
   margin-top: 2rem;
   margin-left: 2rem; }
-
-.FotoFinal {
-  display: grid;
-  grid-template-rows: 1fr;
-  justify-content: center;
-  margin-top: 2rem; }
 
 .textGaleria {
   margin-left: 5.5rem;
@@ -333,10 +319,13 @@ Legend {
     display: none; }
   .divFooter {
     display: grid; }
-  .Wp {
+  .wp {
     margin-top: 0.3rem;
     width: 10.5vh;
-    height: 10.5vh; }
+    height: 10.5vh;
+    margin-left: inherit; }
+  .ig {
+    margin-left: inherit; }
   .enlacesPaginaFooter a {
     display: none; }
   .divMain {
